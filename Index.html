@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"><title>Silver Life AI</title></head>
-<body>
-<h1>Silver Life AI 테스트</h1>
-<p id="status">연결 확인 중...</p>
-<button onclick="test()">AI 테스트</button>
-<script>
-async function test() {
-  try {
-    const r = await fetch('https://silver-life-api.onrender.com/');
-    const d = await r.json();
-    document.getElementById('status').textContent = '✅ 연결 성공: ' + d.status;
-  } catch(e) {
-    document.getElementById('status').textContent = '❌ 오류: ' + e.message;
-  }
-}
-test();
-</script>
-</body>
-</html>
+
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Loading...</title>
+<script>window.location.href='https://cosmic-rugelach-35bef4.netlify.app';</script>
+</head><body>로딩 중...</body></html>
